@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<form th:action="@{/home/caculate}" method="post">
+    <input type = "number" name = "Number1" placeholder="Number1">
+    <br>
+    <input type= "number" name = "Number2" placeholder="Number2">
+    <br>
+    <input type="submit" value="submit">
+</form>
+<h1>Resuls:[[${Tong2so}]]
+</h1>
+</body>
+</html>
